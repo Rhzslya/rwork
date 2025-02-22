@@ -1,11 +1,7 @@
-import { useState } from "react";
-import SliderImage from "../SliderImage";
+import {} from "react";
 
 export default function Home() {
   const images = ["/images/1.jpg", "/images/2.jpg", "/images/3.jpg"];
-  const imagesCarousel = ["/images/11.jpg", "/images/12.jpg", "/images/13.jpg"];
-
-  const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
     <main className="home_root my-[56px] pt-48 flex justify-between mx-36 gap-6">

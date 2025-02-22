@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/swiper-bundle.css";
@@ -11,36 +10,12 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import slide_image_1 from "../../assets/11.jpg";
 import slide_image_2 from "../../assets/12.jpg";
 import slide_image_3 from "../../assets/13.jpg";
-import Marquee from "../CoolMarque/Marquee";
 
 console.log(slide_image_1);
 console.log(slide_image_2);
 console.log(slide_image_3);
 
 const SliderImage = () => {
-  const borders = (
-    <>
-      <rect
-        x="200"
-        y="200"
-        width="150"
-        height="150"
-        stroke="blue"
-        strokeWidth="4"
-        fill="none"
-      ></rect>
-      <rect
-        x="300"
-        y="250"
-        width="100"
-        height="50"
-        stroke="yellow"
-        strokeWidth="4"
-        fill="none"
-      ></rect>
-    </>
-  );
-
   return (
     <section className="relative image-section mt-38">
       <div className="absolute left-1/2 top-1/3 w-[80%] h-full bg-gradient-to-r from-blue-800 via-purple-800 to-pink-800 blur-3xl opacity-30 rounded-full -translate-x-1/2 -translate-y-1/2"></div>

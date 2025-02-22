@@ -1,4 +1,3 @@
-import React from "react";
 import CoolMarqueeBox from "."; // <-- Benar
 import { BRANDS } from "./Brands/brand";
 
